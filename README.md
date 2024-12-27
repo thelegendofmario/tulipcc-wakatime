@@ -15,9 +15,7 @@ Time-tracking Chrome Extension for Onshape using Wakatime.
 
 
 
-## Overview 
-Stolen from [skyfall](https://chromewebstore.google.com/detail/WakaTime%20for%20Figma/ddoemmbdnemldilpbaofhnbhihjhbjni)
-
+## Overview
 
 Metrics, insights, and time tracking automatically generated from your OnShape activity.
 
@@ -45,3 +43,4 @@ The extension tracks:
 - Time spent editing/viewing
 - The time of day you made changes
 
+Stolen from [skyfall](https://chromewebstore.google.com/detail/WakaTime%20for%20Figma/ddoemmbdnemldilpbaofhnbhihjhbjni)
