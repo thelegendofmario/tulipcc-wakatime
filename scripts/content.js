@@ -22,13 +22,18 @@ function handleClick() {
     let url = window.location.href;
     let heatbeat = core.buildHeartbeat(url);
     console.log(heatbeat);
-    chrome.storage.local.get("heartbeats").then((item) => {
-        if (!item.heartbeats) {
-            item.heartbeats = []
-        }
-        item.heartbeats.push(heatbeat)
-        chrome.storage.local.set({ heartbeats: item.heartbeats })
-      });
+    try{
+        chrome.storage.local.get("heartbeats").then((item) => {
+            if (!item.heartbeats) {
+                item.heartbeats = []
+            }
+            item.heartbeats.push(heatbeat)
+            chrome.storage.local.set({ heartbeats: item.heartbeats })
+          });
+    }catch(e){
+        alert("A error has occured! Usally this is because you have not refreshed your page after installing the extension. Please refresh the page and try again.")
+    }
+
 }
 
 waitForCanvas()
