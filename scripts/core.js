@@ -1,5 +1,7 @@
+let VERSION = "1.0.0";
 function getUserAgent() {
-    return navigator.userAgent;
+    var result = bowser.getParser(window.navigator.userAgent);
+    return result.getBrowserName()+"/"+result.getBrowserVersion()+" "+(result.getOSName()+"_"+result.getOSVersion()).replace(" ", "_")+" onshape-wakatime/"+VERSION;
 }
 function uuidv4() {
     return "10000000-1000-4000-8000-100000000000".replace(/[018]/g, c =>

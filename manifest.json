@@ -18,6 +18,7 @@
                 "https://cad.onshape.com/*"
             ],
             "js": ["scripts/moment.js",
+                "scripts/browser.js",
                 "scripts/core.js",
                 "scripts/content.js"
             ]
