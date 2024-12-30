@@ -3,11 +3,16 @@
 Time-tracking Chrome Extension for Onshape using Wakatime.
 
 ## Installation
+# Chrome
 1. Clone the repository.
 2. Go to chrome://extensions.
 3. Enable “Developer mode”.
 4. Select “Load unpacked” and choose the project folder.
 
+# FireFox
+1. Goto https://addons.mozilla.org/en-US/firefox/addon/onshape-wakatime/
+2. Press install!
+   
 ## Usage
 • Navigate to Onshape.  
 • The extension tracks your work and sends heartbeats to Wakatime.  
