@@ -1,4 +1,4 @@
-let VERSION = "1.0.0";
+let VERSION = "1.0.1";
 function getUserAgent() {
     var result = bowser.getParser(window.navigator.userAgent);
     return result.getBrowserName()+"/"+result.getBrowserVersion()+" "+(result.getOSName()+"_"+result.getOSVersion()).replace(" ", "_")+" onshape-wakatime/"+VERSION;
