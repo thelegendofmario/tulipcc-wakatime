@@ -1,10 +1,3 @@
-// chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
-//   if (message.msg === "click") {
-//     chrome.storage.local.get().then((items) => {
-//       console.log(items)
-//     });
-//   }
-// });
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.msg === "forceSendHeartbeat") {

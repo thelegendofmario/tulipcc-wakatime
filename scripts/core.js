@@ -46,10 +46,5 @@ class WakaCore {
         const heartbeat = this.buildHeartbeat(url);
         if (!this.shouldSendHeartbeat()) return;
         this.lastHeartbeatSentAt = Date.now();
-
-        // const xhr = new XMLHttpRequest();
-        // xhr.open("POST", "https://wakatime.com/api/v1/heartbeats", true);
-        // xhr.setRequestHeader("Content-Type", "application/json");
-        // xhr.send(JSON.stringify(heartbeat));
     }
 }
