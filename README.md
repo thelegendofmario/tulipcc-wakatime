@@ -4,10 +4,8 @@ Time-tracking Chrome Extension for Onshape using Wakatime.
 
 ## Installation
 # Chrome
-1. Clone the repository.
-2. Go to chrome://extensions.
-3. Enable “Developer mode”.
-4. Select “Load unpacked” and choose the project folder.
+1. Goto [here](https://chromewebstore.google.com/detail/onshape-wakatime/kieglbolocchhhcblnhaiodbpgkjcecg)
+2. Press Add to Chrome!
 
 # FireFox
 1. Goto https://addons.mozilla.org/en-US/firefox/addon/onshape-wakatime/
@@ -49,3 +47,11 @@ The extension tracks:
 - The time of day you made changes
 
 Stolen from [skyfall](https://chromewebstore.google.com/detail/WakaTime%20for%20Figma/ddoemmbdnemldilpbaofhnbhihjhbjni)
+
+
+## Dev install
+
+1. Clone the repository.
+2. Go to chrome://extensions.
+3. Enable “Developer mode”.
+4. Select “Load unpacked” and choose the project folder.
