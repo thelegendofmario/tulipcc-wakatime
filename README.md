@@ -4,11 +4,11 @@ Time-tracking Chrome Extension for Onshape using Wakatime.
 
 ## Installation
 # Chrome
-1. Goto [here](https://chromewebstore.google.com/detail/onshape-wakatime/kieglbolocchhhcblnhaiodbpgkjcecg)
+1. Goto [this link](https://chromewebstore.google.com/detail/onshape-wakatime/kieglbolocchhhcblnhaiodbpgkjcecg)
 2. Press Add to Chrome!
 
 # FireFox
-1. Goto https://addons.mozilla.org/en-US/firefox/addon/onshape-wakatime/
+1. Goto [this link](https://addons.mozilla.org/en-US/firefox/addon/onshape-wakatime/)
 2. Press install!
    
 ## Usage
