@@ -1,7 +1,7 @@
-let VERSION = "1.0.1";
+let VERSION = "0.0.1";
 function getUserAgent() {
     var result = bowser.getParser(window.navigator.userAgent);
-    return result.getBrowserName()+"/"+result.getBrowserVersion()+" "+(result.getOSName()+"_"+result.getOSVersion()).replace(" ", "_")+" onshape-wakatime/"+VERSION;
+    return result.getBrowserName()+"/"+result.getBrowserVersion()+" "+(result.getOSName()+"_"+result.getOSVersion()).replace(" ", "_")+"tulipcc-web-wakatime/"+VERSION;
 }
 function uuidv4() {
     return "10000000-1000-4000-8000-100000000000".replace(/[018]/g, c =>
@@ -16,7 +16,8 @@ class WakaCore {
     }
     getProjectName() {
         let tabName = document.title;
-        let fromHeading = document.getElementsByClassName("navbar-document-name")[0].textContent;
+        let fromHeading = document.getElementById("editor_filename").value;
+        //return tabName
         if (tabName.split("|")[0].replace("\n", "").trim() == fromHeading.replace("\n", "").trim()) {
             return tabName.split("|")[0].replace("\n", "").trim();
         } else {
@@ -26,11 +27,11 @@ class WakaCore {
     buildHeartbeat(url) {
         return {
             branch: "<<LAST_BRANCH>>",
-            category: "Designing",
+            category: "coding",
             entity: url,
             id: uuidv4(),
-            language: "Onshape",
-            plugin: "onshape-wakatime-plugin_" + getUserAgent(),
+            language: "Python",
+            plugin: "tulipcc-web-wakatime-plugin_" + getUserAgent(),
             project: this.getProjectName() ?? '<<LAST_PROJECT>>',
             time: this.getCurrentTime(),
             type: url,

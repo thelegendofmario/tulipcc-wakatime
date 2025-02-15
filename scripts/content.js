@@ -1,24 +1,30 @@
-
-
 function waitForCanvas() {
-    if (!window.location.href.includes("cad.onshape.com")) {
+    if (!window.location.href.includes("tulip.computer/run")) {
         return
     }
-    if (document.getElementById("canvas")) {
+    let save = document.querySelectorAll("textinput") 
+    if (save) {
+        console.log("yes. there is a button.")
+    }
 
-        a = document.getElementById("canvas")
-        a.addEventListener("click",
-            handleClick
+    // console.log("hello.")
+    if (document.querySelector(".cm-s-lucario.CodeMirror")) {
+        a = document.querySelector(".cm-s-lucario.CodeMirror")
+        console.log(a)
+        a.addEventListener("input",
+            handleInput
         );
         return true;
     }
     window.setTimeout(waitForCanvas, 500);
 }
 const core = new WakaCore();
-function handleClick() {
-    if (!window.location.href.includes("cad.onshape.com")) {
+function handleInput() {
+    if (!window.location.href.includes("tulip.computer/run")) {
+        console.log("lol")
         return
     }
+    console.log("this works?")
     let url = window.location.href;
     let heatbeat = core.buildHeartbeat(url);
     console.log(heatbeat);

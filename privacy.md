@@ -1,7 +1,7 @@
 # Privacy Policy
 
 ## Overview
-WakaTime for OnShape is a browser extension that tracks your design time and activity in OnShape. This privacy policy explains what information we collect, how we use it, and your rights regarding this data.
+WakaTime for Tulip Web is a browser extension that tracks your design time and activity in Tulip Web. This privacy policy explains what information we collect, how we use it, and your rights regarding this data.
 
 ## Data Collection
 
@@ -9,9 +9,9 @@ WakaTime for OnShape is a browser extension that tracks your design time and act
 - **WakaTime Authentication**: Your WakaTime API key and API URL are stored locally in your browser's secure storage. These credentials are only used to send activity data to WakaTime's servers.
 
 ### Activity Data
-We collect the following information about your OnShape usage:
-- Project names from your OnShape files
-- When you click on objects in OnShape
+We collect the following information about your Tulip Web usage:
+- Project names from your Tulip Web files
+- When you click on objects in Tulip Web
 - Timestamps of your design activity
 - Basic system information (operating system and browser name)
 - The project URL
@@ -52,4 +52,4 @@ For privacy concerns or questions, please open an issue on our [GitHub repositor
 This extension is open source. You can review its code and functionality on [GitHub](https://github.com/JeffreyWangDev/onshape-wakatime).
 
 
-Note: This privacy policy is taken from [WakaTime for Figma](https://github.com/SkyfallWasTaken/figma-wakatime/blob/main/PRIVACY_POLICY.md)
+Note: This privacy policy is taken from [WakaTime for OnShape](https://github.com/JeffreyWangDev/onshape-wakatime/tree/main)

@@ -1,8 +1,8 @@
 {
     "manifest_version": 3,
-    "name": "Onshape-Wakatime",
+    "name": "Tulip-Web-Wakatime",
     "version": "1.0.1",
-    "description": "Time tracking for onshape",
+    "description": "Time tracking for Tulip Web",
     "permissions": [
         "storage",
         "unlimitedStorage",
@@ -19,7 +19,7 @@
     "content_scripts": [
         {
             "matches": [
-                "https://cad.onshape.com/*"
+                "https://tulip.computer/run/"
             ],
             "js": [
                 "scripts/moment.js",
@@ -31,7 +31,7 @@
     ],
     "browser_specific_settings": {
         "gecko": {
-            "id": "JeffreyWangDev@onshape-wakatime"
+            "id": "TheLegendOfMario@Tulip-Web-Wakatime"
         }
     },
     "web_accessible_resources": [
